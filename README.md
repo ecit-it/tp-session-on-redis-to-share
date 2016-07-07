@@ -1,6 +1,7 @@
 # tp-session-on-redis-to-share
 a easy way to share session data between sub-domain sites in thinkphp
 ## 目的:
+
 本例主要用来解决同一主域名下不同子域名(服务器)之间的session共享问题。比如说`www.mydomain.com`和`home.mydomain.com`之间的Session共享
 ---
 ## 鸣谢:
@@ -22,4 +23,4 @@ ThinkPHP的Session的Redis驱动来自[这里](http://www.thinkphp.cn/extend/547
 'SESSION_REDIS_AUTH' => '',    //Redis auth认证(密钥中不能有逗号),如果相同只填一个,用英文逗号分隔
 ```
 ## 原理
-可以参考[这里](http://www.jb51.net/article/19664.htm)
+可以参考[这里](http://blog.chinaunix.net/uid-14719335-id-2787868.html)
